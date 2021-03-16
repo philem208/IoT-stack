@@ -1,0 +1,155 @@
+0 info it worked if it ends with ok
+1 warn npm npm does not support Node.js v10.24.0
+2 warn npm You should probably upgrade to a newer version of node as we
+3 warn npm can't make any promises that npm will work with this version.
+4 warn npm Supported releases of Node.js are the latest release of 4, 6, 7, 8, 9.
+5 warn npm You can find the latest version at https://nodejs.org/
+6 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'localtunnel' ]
+7 info using npm@5.8.0
+8 info using node@v10.24.0
+9 verbose npm-session 66e830f4b0664650
+10 silly install loadCurrentTree
+11 silly install readGlobalPackageData
+12 http fetch GET 200 https://registry.npmjs.org/localtunnel 1018ms
+13 http fetch GET 200 https://registry.npmjs.org/localtunnel/-/localtunnel-2.0.1.tgz 238ms
+14 silly pacote tag manifest for localtunnel@latest fetched in 1599ms
+15 silly install loadIdealTree
+16 silly install cloneCurrentTreeToIdealTree
+17 silly install loadShrinkwrap
+18 silly install loadAllDepsIntoIdealTree
+19 silly resolveWithNewModule localtunnel@2.0.1 checking installable status
+20 http fetch GET 200 https://registry.npmjs.org/axios 299ms
+21 http fetch GET 200 https://registry.npmjs.org/debug 813ms
+22 http fetch GET 200 https://registry.npmjs.org/openurl 831ms
+23 http fetch GET 200 https://registry.npmjs.org/yargs 827ms
+24 http fetch GET 200 https://registry.npmjs.org/axios/-/axios-0.21.1.tgz 509ms
+25 silly pacote version manifest for axios@0.21.1 fetched in 1302ms
+26 silly resolveWithNewModule axios@0.21.1 checking installable status
+27 http fetch GET 200 https://registry.npmjs.org/openurl/-/openurl-1.1.1.tgz 394ms
+28 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-4.3.1.tgz 416ms
+29 http fetch GET 200 https://registry.npmjs.org/yargs/-/yargs-16.2.0.tgz 404ms
+30 silly pacote version manifest for openurl@1.1.1 fetched in 1373ms
+31 silly resolveWithNewModule openurl@1.1.1 checking installable status
+32 silly pacote version manifest for debug@4.3.1 fetched in 1386ms
+33 silly resolveWithNewModule debug@4.3.1 checking installable status
+34 silly pacote version manifest for yargs@16.2.0 fetched in 1378ms
+35 silly resolveWithNewModule yargs@16.2.0 checking installable status
+36 http fetch GET 200 https://registry.npmjs.org/follow-redirects 115ms
+37 http fetch GET 200 https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.13.3.tgz 156ms
+38 silly pacote range manifest for follow-redirects@^1.10.0 fetched in 327ms
+39 silly resolveWithNewModule follow-redirects@1.13.3 checking installable status
+40 http fetch GET 200 https://registry.npmjs.org/ms 88ms
+41 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.2.tgz 98ms
+42 silly pacote version manifest for ms@2.1.2 fetched in 213ms
+43 silly resolveWithNewModule ms@2.1.2 checking installable status
+44 http fetch GET 200 https://registry.npmjs.org/require-directory 225ms
+45 http fetch GET 200 https://registry.npmjs.org/get-caller-file 238ms
+46 http fetch GET 200 https://registry.npmjs.org/escalade 257ms
+47 http fetch GET 200 https://registry.npmjs.org/cliui 299ms
+48 http fetch GET 200 https://registry.npmjs.org/string-width 644ms
+49 http fetch GET 200 https://registry.npmjs.org/y18n 648ms
+50 http fetch GET 200 https://registry.npmjs.org/yargs-parser 650ms
+51 http fetch GET 200 https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz 485ms
+52 http fetch GET 200 https://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz 458ms
+53 http fetch GET 200 https://registry.npmjs.org/escalade/-/escalade-3.1.1.tgz 485ms
+54 http fetch GET 200 https://registry.npmjs.org/cliui/-/cliui-7.0.4.tgz 370ms
+55 silly pacote range manifest for require-directory@^2.1.1 fetched in 925ms
+56 silly resolveWithNewModule require-directory@2.1.1 checking installable status
+57 silly pacote range manifest for get-caller-file@^2.0.5 fetched in 935ms
+58 silly resolveWithNewModule get-caller-file@2.0.5 checking installable status
+59 silly pacote range manifest for escalade@^3.1.1 fetched in 961ms
+60 silly resolveWithNewModule escalade@3.1.1 checking installable status
+61 silly pacote range manifest for cliui@^7.0.2 fetched in 1004ms
+62 silly resolveWithNewModule cliui@7.0.4 checking installable status
+63 http fetch GET 200 https://registry.npmjs.org/string-width/-/string-width-4.2.2.tgz 284ms
+64 http fetch GET 200 https://registry.npmjs.org/yargs-parser/-/yargs-parser-20.2.7.tgz 282ms
+65 http fetch GET 200 https://registry.npmjs.org/y18n/-/y18n-5.0.5.tgz 294ms
+66 silly pacote range manifest for string-width@^4.2.0 fetched in 1056ms
+67 silly resolveWithNewModule string-width@4.2.2 checking installable status
+68 silly pacote range manifest for yargs-parser@^20.2.2 fetched in 1056ms
+69 silly resolveWithNewModule yargs-parser@20.2.7 checking installable status
+70 silly pacote range manifest for y18n@^5.0.5 fetched in 1074ms
+71 silly resolveWithNewModule y18n@5.0.5 checking installable status
+72 http fetch GET 200 https://registry.npmjs.org/strip-ansi 119ms
+73 http fetch GET 200 https://registry.npmjs.org/wrap-ansi 129ms
+74 http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.0.tgz 129ms
+75 http fetch GET 200 https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz 114ms
+76 silly pacote range manifest for strip-ansi@^6.0.0 fetched in 294ms
+77 silly resolveWithNewModule strip-ansi@6.0.0 checking installable status
+78 silly pacote range manifest for wrap-ansi@^7.0.0 fetched in 296ms
+79 silly resolveWithNewModule wrap-ansi@7.0.0 checking installable status
+80 http fetch GET 200 https://registry.npmjs.org/emoji-regex 168ms
+81 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point 181ms
+82 http fetch GET 200 https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz 100ms
+83 silly pacote range manifest for emoji-regex@^8.0.0 fetched in 339ms
+84 silly resolveWithNewModule emoji-regex@8.0.0 checking installable status
+85 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz 144ms
+86 silly pacote range manifest for is-fullwidth-code-point@^3.0.0 fetched in 368ms
+87 silly resolveWithNewModule is-fullwidth-code-point@3.0.0 checking installable status
+88 http fetch GET 200 https://registry.npmjs.org/ansi-regex 82ms
+89 http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.0.tgz 105ms
+90 silly pacote range manifest for ansi-regex@^5.0.0 fetched in 211ms
+91 silly resolveWithNewModule ansi-regex@5.0.0 checking installable status
+92 http fetch GET 200 https://registry.npmjs.org/ansi-styles 80ms
+93 http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 89ms
+94 silly pacote range manifest for ansi-styles@^4.0.0 fetched in 200ms
+95 silly resolveWithNewModule ansi-styles@4.3.0 checking installable status
+96 http fetch GET 200 https://registry.npmjs.org/color-convert 90ms
+97 http fetch GET 200 https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 95ms
+98 silly pacote range manifest for color-convert@^2.0.1 fetched in 219ms
+99 silly resolveWithNewModule color-convert@2.0.1 checking installable status
+100 http fetch GET 200 https://registry.npmjs.org/color-name 89ms
+101 http fetch GET 200 https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 102ms
+102 silly pacote range manifest for color-name@~1.1.4 fetched in 240ms
+103 silly resolveWithNewModule color-name@1.1.4 checking installable status
+104 silly currentTree lib
+105 silly idealTree lib
+105 silly idealTree └─┬ localtunnel@2.0.1
+105 silly idealTree   ├── ansi-regex@5.0.0
+105 silly idealTree   ├── ansi-styles@4.3.0
+105 silly idealTree   ├── axios@0.21.1
+105 silly idealTree   ├── cliui@7.0.4
+105 silly idealTree   ├── color-convert@2.0.1
+105 silly idealTree   ├── color-name@1.1.4
+105 silly idealTree   ├── debug@4.3.1
+105 silly idealTree   ├── emoji-regex@8.0.0
+105 silly idealTree   ├── escalade@3.1.1
+105 silly idealTree   ├── follow-redirects@1.13.3
+105 silly idealTree   ├── get-caller-file@2.0.5
+105 silly idealTree   ├── is-fullwidth-code-point@3.0.0
+105 silly idealTree   ├── ms@2.1.2
+105 silly idealTree   ├── openurl@1.1.1
+105 silly idealTree   ├── require-directory@2.1.1
+105 silly idealTree   ├── string-width@4.2.2
+105 silly idealTree   ├── strip-ansi@6.0.0
+105 silly idealTree   ├── wrap-ansi@7.0.0
+105 silly idealTree   ├── y18n@5.0.5
+105 silly idealTree   ├── yargs-parser@20.2.7
+105 silly idealTree   └── yargs@16.2.0
+106 silly install generateActionsToTake
+107 warn checkPermissions Missing write access to /usr/local/lib
+108 verbose stack Error: EACCES: permission denied, access '/usr/local/lib'
+109 verbose cwd /home/pi
+110 verbose Linux 5.10.17-v7+
+111 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "localtunnel"
+112 verbose node v10.24.0
+113 verbose npm  v5.8.0
+114 error path /usr/local/lib
+115 error code EACCES
+116 error errno -13
+117 error syscall access
+118 error Error: EACCES: permission denied, access '/usr/local/lib'
+118 error  { [Error: EACCES: permission denied, access '/usr/local/lib']
+118 error   stack:
+118 error    'Error: EACCES: permission denied, access \'/usr/local/lib\'',
+118 error   errno: -13,
+118 error   code: 'EACCES',
+118 error   syscall: 'access',
+118 error   path: '/usr/local/lib' }
+119 error The operation was rejected by your operating system.
+119 error It is likely you do not have the permissions to access this file as the current user
+119 error
+119 error If you believe this might be a permissions issue, please double-check the
+119 error permissions of the file and its containing directories, or try running
+119 error the command again as root/Administrator (though this is not recommended).
+120 verbose exit [ -13, true ]

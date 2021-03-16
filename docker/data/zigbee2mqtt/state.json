@@ -1,0 +1,26 @@
+{
+    "0x00158d0003a27a09": {
+        "voltage": 2965,
+        "battery": 80,
+        "temperature": 19.15,
+        "humidity": 65.99
+    },
+    "0x00158d00047db7db": {
+        "voltage": 2995,
+        "battery": 97,
+        "contact": true,
+        "temperature": 23
+    },
+    "0x00158d0003a28b20": {
+        "voltage": 2995,
+        "battery": 97,
+        "temperature": 19.13,
+        "humidity": 66.01
+    },
+    "0x00158d000363d9a3": {
+        "voltage": 3035,
+        "battery": 100,
+        "temperature": 19.25,
+        "humidity": 65.45
+    }
+}

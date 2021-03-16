@@ -1,0 +1,27 @@
+info  2021-03-15 19:25:40: Logging to console and directory: '/app/data/log/2021-03-15.19-25-37' filename: log.txt
+info  2021-03-15 19:25:41: Starting Zigbee2MQTT version 1.18.1 (commit #a43d1f3)
+info  2021-03-15 19:25:41: Starting zigbee-herdsman (0.13.71)
+error 2021-03-15 19:25:42: Failed to call 'OnEvent' 'stop' (TypeError: Cannot read property 'getEntries' of null
+    at Function.loadFromDatabaseIfNecessary (/app/node_modules/zigbee-herdsman/dist/controller/model/device.js:220:55)
+    at Function.all (/app/node_modules/zigbee-herdsman/dist/controller/model/device.js:240:16)
+    at Controller.getDevices (/app/node_modules/zigbee-herdsman/dist/controller/controller.js:273:31)
+    at Zigbee.getClients (/app/lib/zigbee.js:149:30)
+    at OnEvent.stop (/app/lib/extension/onEvent.js:23:42)
+    at Controller.callExtensionMethod (/app/lib/controller.js:380:44)
+    at async Controller.stop (/app/lib/controller.js:187:9)
+    at async stop (/app/index.js:46:5)
+    at async process.handleQuit (/app/index.js:52:9))
+error 2021-03-15 19:25:42: Not connected to MQTT server!
+error 2021-03-15 19:25:42: Cannot send message: topic: 'zigbee2mqtt/bridge/state', payload: 'offline
+info  2021-03-15 19:25:42: Disconnecting from MQTT server
+info  2021-03-15 19:25:49: zigbee-herdsman started
+info  2021-03-15 19:25:49: Coordinator firmware version: '{"meta":{"maintrel":3,"majorrel":2,"minorrel":6,"product":0,"revision":20201127,"transportrev":2},"type":"zStack12"}'
+info  2021-03-15 19:25:49: Currently 0 devices are joined:
+warn  2021-03-15 19:25:49: `permit_join` set to  `true` in configuration.yaml.
+warn  2021-03-15 19:25:49: Allowing new devices to join.
+warn  2021-03-15 19:25:49: Set `permit_join` to `false` once you joined all devices.
+info  2021-03-15 19:25:49: Zigbee: allowing new devices to join.
+info  2021-03-15 19:25:50: Connecting to MQTT server at mqtt://mosquitto
+info  2021-03-15 19:25:50: Connected to MQTT server
+info  2021-03-15 19:25:50: MQTT publish: topic 'zigbee2mqtt/bridge/state', payload 'online'
+info  2021-03-15 19:25:50: MQTT publish: topic 'zigbee2mqtt/bridge/config', payload '{"commit":"a43d1f3","coordinator":{"meta":{"maintrel":3,"majorrel":2,"minorrel":6,"product":0,"revision":20201127,"transportrev":2},"type":"zStack12"},"log_level":"info","network":{"channel":25,"extendedPanID":"0xdddddddddddddddd","panID":6754},"permit_join":true,"version":"1.18.1"}'
